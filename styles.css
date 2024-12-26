@@ -1,17 +1,19 @@
 /*  your css code here. If applicable */
  body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      background-color: #f0f0f0;
-    }
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
     .star {
       width: 150px;
       height: 150px;
       background-color: yellow;
+		border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid yellow;
       clip-path: polygon(
         50% 0%, 
         61% 25%, 
